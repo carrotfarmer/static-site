@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+  background-color: #f0f0f0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+  padding-left: 20px;
+}
+
+#heading {
+  display: flex;
+  justify-content: center;
+  color: gray;
+}
+
+#load {
+  display: flex;
+  justify-content: center;
+}
+
+#loadTime {
+  padding-left: 5px;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+#content {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+#big-red-btn {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 20px;
+  font-size: 24px;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #ed4242;
+}
+
+button:active {
+  transform: scale(0.95);
+}
